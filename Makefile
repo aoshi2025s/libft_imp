@@ -6,7 +6,7 @@
 #    By: yoaoki <yoaoki@student.42tokyo.jp>         +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/05/15 04:18:30 by yoaoki            #+#    #+#              #
-#    Updated: 2024/05/15 05:08:12 by yoaoki           ###   ########.fr        #
+#    Updated: 2024/07/25 22:27:57 by yoaoki           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -31,13 +31,11 @@ SRC_LIBFT = ft_isalpha ft_isdigit ft_isalnum ft_isascii \
 			ft_lstadd_back ft_lstdelone ft_lstclear\
 			ft_lstiter ft_lstmap
 
-SRC_PRINTF = ft_printf ft_put_convert ft_print_char ft_print_str\
-			 ft_print_ptr ft_print_percent ft_print_int ft_print_uint\
-			 ft_print_hex ft_puthex_fd ft_putuint_fd ft_numlen ft_putptr_fd\
+SRC_PRINTF = ft_printf put
 
-SRC_GNL = get_next_line_bonus get_next_line_utils_bonus
+SRC_GNL = get_next_line_bonus
 
-LIBFT_DIR = o_libft/
+LIBFT_DIR = libft/
 PRINTF_DIR = ft_printf/
 GNL_DIR = get_next_line/
 
